@@ -8,7 +8,7 @@ clk = pygame.time.Clock()
 
 size = width, height = 256, 256
 screen = pygame.display.set_mode(size)
-background_image = pygame.image.load('C:/Users/Javier Azahel/Documents/ja/simulacion/snes/templates/control.png').convert()
+background_image = pygame.image.load('./control.png').convert()
 frameReact = pygame.Rect((0, 0), (width, height))
 
 crosshair = pygame.surface.Surface((10, 10))
